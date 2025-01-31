@@ -12,6 +12,12 @@
 .sora-font {
   font-family: "Sora", serif;
 }
+
+.bg-image{
+    background-image: url('./c2-assets/vegetable-offer.png');
+    background-repeat: no-repeat;
+    background-position:left;
+}
     </style>
 <!-- tailwind cdn -->
 <script src="https://cdn.tailwindcss.com"></script>
@@ -70,28 +76,62 @@
 
    <main>
     <!-- Services  -->
-     <div class="mt-32">
-        <h2 class="font-semibold text-4xl text-[#179800]">Services</h2>
+    
+        <h2 class="font-semibold text-4xl text-[#179800] mt-32 ml-36">Services</h2>
         <!-- services card -->
-         <div class="bg-[#EFEBE3] grid grid-cols-3">
-            <div class="">
+          <div class="mt-12 mx-36 mb-36 gap-3 flex justify-center">
+            <div class=" bg-[#EFEBE3] px-8 pt-8 pb-11 rounded-2xl">
                 <img src="c2-assets/service.png" alt="">
                 <h3>24/7 Services </h3>
-                <p></p>
+                <p>"Day or night, rain or shine – Fresh food at your doorstep 24/7!"</p>
             </div>
-            <div><img src="c2-assets/delivery.png" alt="">
+            <div class="bg-[#EFEBE3] px-8 pt-8 pb-11 rounded-2xl">
+                <img src="c2-assets/delivery.png" alt="">
                 <h3>Fast Delivery</h3>
-                <p></p>
+                <p>Fast, Fresh, and Flavorful – Delivered to You in No Time</p>
             </div>
-            <div>
+            <div class="bg-[#EFEBE3] px-8 pt-8 pb-11 rounded-2xl">
                 <img src="c2-assets/healthy.png" alt="">
                 <h3>Healthy Products </h3>
-                <p></p>
+                <p> We use only the finest, locally-sourced produce and  quality proteins for every dish.</p>
             </div>
-         </div>
-         <!--  -->
-     </div>  
-
+          </div>
+         
+          <!-- Popular Products start-->
+        <div class="bg-[#EFEBE3] px-32 pb-32">
+            <!-- popular-title -->
+           <h2 class="font-semibold pt-36 pb-12  text-4xl text-[#179800]"> Popular Products</h2>
+           <!-- popular card -->
+           <div>
+            <!-- popular card banner-->
+            <div class=" w-96 bg-gradient-to-r from-green-500 to-green-200 rounded-xl px-8 pt-10">
+    
+             <h1 class="font-normal text-3xl  text-white ">30% off</h1>
+             <p class="pt-4 pb-4">Discover a world of treats, toys, and essentials handpicked for </p>
+             <button class="rounded-xl text-2xl bg-white px-8 py-4">Buy Now</button>
+             <div> <img class="pl-10" src="c2-assets/vegetable-offer.png" alt=""></div>
+            </div>
+            <!--popular card list start -->
+            <div>
+               <!-- list 1 -->
+                <div class="">
+                   <div >
+                    <img src="c2-assets/onion.png" alt="">
+                   </div>
+                    <div>
+                        
+                        <h3>Onion 1 KG</h3>
+                        <p>$39.99</p>
+                    </div>
+                </div>
+                <!-- list1 -->
+            </div>
+            <!-- popular card list end -->
+             
+           </div>
+           <!-- popular card end -->
+             <!--  Popular Products end -->
+        </div>
    </main>    
 
    <footer>
