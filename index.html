@@ -79,21 +79,21 @@
     
         <h2 class="font-semibold text-4xl text-[#179800] mt-32 ml-36">Services</h2>
         <!-- services card -->
-          <div class="mt-12 mx-36 mb-36 gap-3 flex justify-center">
+          <div class="mt-12 mx-36 mb-36 gap-3 flex justify-center text-center">
             <div class=" bg-[#EFEBE3] px-8 pt-8 pb-11 rounded-2xl">
-                <img src="c2-assets/service.png" alt="">
-                <h3>24/7 Services </h3>
-                <p>"Day or night, rain or shine – Fresh food at your doorstep 24/7!"</p>
+                <img class="rounded-full bg-white p-6 mb-6 mx-16" src="c2-assets/service.png" alt="">
+                <h3 class="pb-3 font-semibold text-2xl">24/7 Services </h3>
+                <p class="font-light text-xl">"Day or night, rain or shine – Fresh food at your doorstep 24/7!"</p>
             </div>
             <div class="bg-[#EFEBE3] px-8 pt-8 pb-11 rounded-2xl">
-                <img src="c2-assets/delivery.png" alt="">
-                <h3>Fast Delivery</h3>
-                <p>Fast, Fresh, and Flavorful – Delivered to You in No Time</p>
+                <img class="rounded-full bg-white p-6 mb-6 mx-14" src="c2-assets/delivery.png" alt="">
+                <h3 class="pb-3 font-semibold text-2xl">Fast Delivery</h3>
+                <p class="font-light text-xl">Fast, Fresh, and Flavorful – Delivered to You in No Time</p>
             </div>
-            <div class="bg-[#EFEBE3] px-8 pt-8 pb-11 rounded-2xl">
-                <img src="c2-assets/healthy.png" alt="">
-                <h3>Healthy Products </h3>
-                <p> We use only the finest, locally-sourced produce and  quality proteins for every dish.</p>
+            <div class="bg-[#EFEBE3] px-6 pt-8 pb-11 rounded-2xl">
+                <img class="rounded-full bg-white p-6 mb-6 ml-20" src="c2-assets/healthy.png" alt="">
+                <h3 class="pb-3 font-semibold text-2xl">Healthy Products </h3>
+                <p class="font-light text-xl"> We use only the finest, locally-sourced produce and  quality proteins for every dish.</p>
             </div>
           </div>
          
@@ -102,9 +102,9 @@
             <!-- popular-title -->
            <h2 class="font-semibold pt-36 pb-12  text-4xl text-[#179800]"> Popular Products</h2>
            <!-- popular card -->
-           <div>
+           <div class="flex">
             <!-- popular card banner-->
-            <div class=" w-96 bg-gradient-to-r from-green-500 to-green-200 rounded-xl px-8 pt-10">
+            <div class=" w-fit bg-gradient-to-r from-green-500 to-green-200 rounded-xl px-8 pt-10">
     
              <h1 class="font-normal text-3xl  text-white ">30% off</h1>
              <p class="pt-4 pb-4">Discover a world of treats, toys, and essentials handpicked for </p>
@@ -112,25 +112,202 @@
              <div> <img class="pl-10" src="c2-assets/vegetable-offer.png" alt=""></div>
             </div>
             <!--popular card list start -->
-            <div>
-               <!-- list 1 -->
-                <div class="">
-                   <div >
-                    <img src="c2-assets/onion.png" alt="">
+            <div class=" grid grid-cols-3 gap-6 ml-6 w-full">
+               <!-- list 1 start-->
+                <div class="flex bg-white rounded-xl ">
+                   <div>
+                    <img class="bg-[#EFEBE3] rounded-xl p-2 m-4 border-black" src="c2-assets/onion.png" alt="">
                    </div>
-                    <div>
-                        
-                        <h3>Onion 1 KG</h3>
-                        <p>$39.99</p>
+                    <div class="py-5 pl-4 pr-10">
+                        <div class="flex gap-2 ">
+                          <i class="fa-solid fa-star text-[#FFC107] mt-1 "></i>
+                          <p>4.5</p>
+                        </div>
+                        <h3 class="font-medium text-xl pb-2">Onion 1 KG</h3>
+                        <p class="font-medium ">$39.99</p>
                     </div>
                 </div>
-                <!-- list1 -->
+                <!-- list 1 end -->
+          <!-- list 2 -->
+          <div class="flex bg-white rounded-xl">
+            <div >
+             <img class="bg-[#EFEBE3] rounded-xl p-2 m-4 border-black" src="c2-assets/tomato.png" alt="">
+            </div>
+             <div class="py-5 pl-3 pr-10">
+                 <div class="flex gap-2 ">
+                   <i class="fa-solid fa-star text-[#FFC107] mt-1 "></i>
+                   <p>4.5</p>
+                 </div>
+                 <h3 class="font-medium text-xl pb-2">Tomato 500 g </h3>
+                 <p class="font-medium ">$39.99</p>
+             </div>
+         </div>
+         <!-- list 2 -->
+          <!-- list 3 start -->
+          <div class="flex bg-white rounded-xl">
+            <div >
+             <img class="bg-[#EFEBE3] rounded-xl p-2 m-4 border-black" src="c2-assets/potato.png" alt="">
+            </div>
+             <div class="py-5 pl-4 pr-10">
+                 <div class="flex gap-2 ">
+                   <i class="fa-solid fa-star text-[#FFC107] mt-1 "></i>
+                   <p>4.5</p>
+                 </div>
+                 <h3 class="font-medium text-xl pb-2">Potato 1 KG</h3>
+                 <p class="font-medium ">$39.99</p>
+             </div>
+         </div>
+         <!-- list 3 end -->
+          <!-- list 4 start -->
+          <div class="flex bg-white rounded-xl">
+            <div >
+             <img class="bg-[#EFEBE3] rounded-xl p-2 m-4 border-black" src="c2-assets/tomato.png" alt="">
+            </div>
+             <div class="py-5 pl-3 pr-10">
+                 <div class="flex gap-2 ">
+                   <i class="fa-solid fa-star text-[#FFC107] mt-1 "></i>
+                   <p>4.5</p>
+                 </div>
+                 <h3 class="font-medium text-xl pb-2">Tomato 500 g </h3>
+                 <p class="font-medium ">$39.99</p>
+             </div>
+         </div>
+         <!-- list 4 end -->
+          <!-- list 5 start -->
+          <div class="flex bg-white rounded-xl">
+            <div >
+             <img class="bg-[#EFEBE3] rounded-xl p-2 m-4 border-black" src="c2-assets/onion.png" alt="">
+            </div>
+             <div class="py-5 pl-4 pr-10">
+                 <div class="flex gap-2 ">
+                   <i class="fa-solid fa-star text-[#FFC107] mt-1 "></i>
+                   <p>4.5</p>
+                 </div>
+                 <h3 class="font-medium text-xl pb-2">Onion 1 KG</h3>
+                 <p class="font-medium ">$39.99</p>
+             </div>
+         </div>
+         <!-- list 5 end -->
+          <!-- list 6 start -->
+          <div class="flex bg-white rounded-xl">
+            <div >
+             <img class="bg-[#EFEBE3] rounded-xl p-2 m-4 border-black" src="c2-assets/tomato.png" alt="">
+            </div>
+             <div class="py-5 pl-3 pr-10">
+                 <div class="flex gap-2 ">
+                   <i class="fa-solid fa-star text-[#FFC107] mt-1 "></i>
+                   <p>4.5</p>
+                 </div>
+                 <h3 class="font-medium text-xl pb-2">Tomato 500 g </h3>
+                 <p class="font-medium ">$39.99</p>
+             </div>
+         </div>
+         <!-- list 6 end -->
+          <!-- list 7 start -->
+          <div class="flex bg-white rounded-xl">
+            <div >
+             <img class="bg-[#EFEBE3] rounded-xl p-2 m-4 border-black" src="c2-assets/onion.png" alt="">
+            </div>
+             <div class="py-5 pl-4 pr-10">
+                 <div class="flex gap-2 ">
+                   <i class="fa-solid fa-star text-[#FFC107] mt-1 "></i>
+                   <p>4.5</p>
+                 </div>
+                 <h3 class="font-medium text-xl pb-2">Onion 1 KG</h3>
+                 <p class="font-medium ">$39.99</p>
+             </div>
+         </div>
+         <!-- list 7 end -->
+          <!-- list 8 start -->
+          <div class="flex bg-white rounded-xl">
+            <div >
+             <img class="bg-[#EFEBE3] rounded-xl p-2 m-4 border-black" src="c2-assets/potato.png" alt="">
+            </div>
+             <div class="py-5 pl-4 pr-10">
+                 <div class="flex gap-2 ">
+                   <i class="fa-solid fa-star text-[#FFC107] mt-1 "></i>
+                   <p>4.5</p>
+                 </div>
+                 <h3 class="font-medium text-xl pb-2">Potato 1 KG</h3>
+                 <p class="font-medium ">$39.99</p>
+             </div>
+         </div>
+         <!-- list 8 end -->
+          <!-- list 9 start -->
+          <div class="flex bg-white rounded-xl">
+            <div >
+             <img class="bg-[#EFEBE3] rounded-xl p-2 m-4 border-black" src="c2-assets/potato.png" alt="">
+            </div>
+             <div class="py-5 pl-4 pr-10">
+                 <div class="flex gap-2 ">
+                   <i class="fa-solid fa-star text-[#FFC107] mt-1 "></i>
+                   <p>4.5</p>
+                 </div>
+                 <h3 class="font-medium text-xl pb-2">Potato 1 KG</h3>
+                 <p class="font-medium ">$39.99</p>
+             </div>
+         </div>
+         <!-- list 9 end -->
             </div>
             <!-- popular card list end -->
              
            </div>
            <!-- popular card end -->
              <!--  Popular Products end -->
+        </div>
+
+        <!-- Arrival & Offers -->
+       <div class="mt-36 mx-24">
+         <!-- Arrival & Offers title -->
+         <h1 class="font-semibold text-4xl text-[#179800] mb-12">Arrival & Offers</h1>
+         <!-- Arrival & Offers banner -->
+          <div class="flex mb-40 ">
+            <!-- banner 1 start -->
+            <div class="bg-[#115414] flex rounded-3xl">
+              <div class="ml-10">
+               <img class="mt-12" src="c2-assets/dawat-logo.png" alt="">
+               <button class="text-2xl text-white mt-8  bg-[#63B76D] rounded-2xl py-4 px-10">Cook Exotic Dishes</button>
+               <p class="text-white mt-6 text-4xl">UP to <span class="font-bold">20% OFF</span></p>
+              </div>
+              <div>
+              <img class="mt-9 ml-12" src="c2-assets/dawat-mock-up.png" alt="">
+              </div>
+            </div>
+            <!-- banner 1 end -->
+             <!-- banner 2 start -->
+             <div class="flex">
+              <!-- banner 1 start -->
+              <div class="bg-[#102861] flex rounded-3xl ml-5">
+                <div class="ml-10">
+                 <img class="mt-5" src="c2-assets/india-gate-logo.png" alt="">
+                 <button class="text-2xl text-white mt-4  bg-[#2A4D97] rounded-2xl py-4 px-10">World’s No.1 Rice</button>
+                 <p class="text-white mt-6 text-4xl">UP to <span class="font-bold">40% OFF</span></p>
+                </div>
+                <div>
+                <img class="mt-12 ml-8 mr-2" src="c2-assets/india-gate-mock-up.png" alt="">
+                </div>
+              </div>
+            <!-- banner 2 end -->
+          </div>
+       </div>
+        
+       <!-- payment  -->
+        <div class="mt-36 mx-24 mb-12 bg-[#EFEBE3]">
+        <!-- payment title -->
+         <h1 class="pt-6 pl-6 font-bold text-3xl text-[#179800]">Easy Payment</h1>
+         <p class="py-6 px-6 font-semibold text-2xl text-center">Pay your way! Choose from credit/debit cards, digital wallets (Bkash, Nagad, Rocket), or cash on delivery. Your payment is 100% secure and hassle-free.</p>
+         <!-- payment card -->
+         <div class="grid grid-cols-3">
+          <div>
+            <img class="w-40 bg-[#EFEBE3]" src="c2-assets/bkash.png" alt="">
+           </div>
+           <div>
+            <img class="w-40 bg-[#EFEBE3]" src="c2-assets/nagad.jpg" alt="">
+           </div>
+           <div>
+            <img class="w-40 bg-[#EFEBE3]" src="c2-assets/rocket.jpg" alt="">
+           </div>
+         </div>
         </div>
    </main>    
 
